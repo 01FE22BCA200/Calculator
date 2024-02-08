@@ -7,7 +7,7 @@ class Calculator {
     float addition(float opreand_1, float operand_2) {
         return opreand_1 + operand_2;
     }
-    
+
     float substraction(float opreand_1, float operand_2) {
         return opreand_1 - operand_2;
     }
@@ -20,8 +20,12 @@ class Calculator {
         return opreand_1 / operand_2;
     }
 
+    float square(float opreand_1) {
+        return opreand_1 * opreand_1;
+    }
+
     public static void main(String[] args) {
-        float opreand_1 = 10;
+        float opreand_1 = 15;
         float operand_2 = 5;
         Calculator calc = new Calculator();
 
