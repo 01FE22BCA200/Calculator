@@ -7,16 +7,7 @@ class Calculator {
     float addition(float opreand_1, float operand_2) {
         return opreand_1 + operand_2;
     }
-
-    /**
-     * The function performs subtraction on two float operands and returns the
-     * result.
-     * 
-     * @param opreand_1 The first operand for the subtraction operation.
-     * @param operand_2 The second operand in the subtraction operation.
-     * @return the result of subtracting operand_2 from operand_1.
-     */
-
+    
     float substraction(float opreand_1, float operand_2) {
         return opreand_1 - operand_2;
     }
