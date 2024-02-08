@@ -24,6 +24,10 @@ class Calculator {
         return opreand_1 * opreand_1;
     }
 
+    float cube(float opreand_1) {
+        return opreand_1 * opreand_1 * opreand_1;
+    }
+
     public static void main(String[] args) {
         float opreand_1 = 15;
         float operand_2 = 5;
@@ -40,5 +44,12 @@ class Calculator {
 
         float div_result = calc.division(opreand_1, operand_2);
         System.out.println("Division result: " + div_result);
+
+        float sqr_result = calc.square(opreand_1);
+        System.out.println("Square of number: " + sqr_result);
+
+        float cbrt_result = calc.cube(opreand_1);
+        System.out.println("Cubic root of a number: " + cbrt_result);
+
     }
 }
